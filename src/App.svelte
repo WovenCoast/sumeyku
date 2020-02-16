@@ -25,6 +25,7 @@
 </style>
 
 <main>
+  <input type="text" bind:value={name} placeholder="What's your name?" />
   <h1>Hello {name}!</h1>
   <p>
     Visit the
