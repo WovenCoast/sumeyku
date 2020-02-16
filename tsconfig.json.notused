@@ -1,0 +1,25 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2018",
+		"outDir": "dist",
+		"strict": true,
+		"lib": [
+			"dom",
+			"ESNext",
+			"ESNext.Array",
+			"ESNext.AsyncIterable",
+			"ESNext.Intl",
+			"ESNext.Symbol"
+		],
+		"sourceMap": false,
+		"inlineSourceMap": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
