@@ -6,7 +6,6 @@
 		"outDir": "dist",
 		"strict": true,
 		"lib": [
-			"dom",
 			"ESNext",
 			"ESNext.Array",
 			"ESNext.AsyncIterable",
